@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+body {
+  margin: 0;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: column;
+  font-family:'Barlow', sans-serif;
+  width: 100vw;
+}
+
+h2, h3{
+  font-family:'Barlow', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #0033A0;
+  display: flex;
+  justify-content: space-around;
+}
+h4 {
+  font-family:'Barlow', sans-serif;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #0033A0;
+  display: flex;  
+}
+p{
+  color: #53565A;
+  font-size: 0.8rem;
+}
+
+.logo {
+  width: 3rem;
+  margin-right: 16rem;
+}
+
+.cardsItem{
+  width: 20rem;
+}
+
+.imgDeco{
+  width: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 40vw 60vw;
+  font-size: 0.8em;
+  font-weight: bolder;
+}
+
+.container div {
+  display: flex;
+  justify-content: center;
+}
+.upperHeader {
+  background-color: #ffff;
+  color: #0033A0;
+}
+.belowHeader {
+  background-color: #0033A0;
+  color: #ffff;
+}
+
+.btn {
+  font-family:'Barlow', sans-serif;
+  color: #0033A0;
+  padding: 0.8em;
+  background-color: #E3E829;
+  border-radius: 40px;
+  width: 8rem;
+  height: 1.5rem;
+  font-size: 0.8em;
+  border: none;
+  font-weight: bolder;
+}
+
+.endItem {
+  background-color: #00AEC7;
+}
+
+.formSection{
+  background-color: #ECF0F1;
+  display: grid;
+  font-family:'Barlow', sans-serif;
+  color: #0033A0;
+  width: 100vw;
+  height: 40hv;
+  justify-content: center;
+  font-size: 0.6rem;
+}
+
+.formItems {
+ display: grid;
+ grid-template-columns:  auto auto auto auto;
+ align-items: end;
+ margin-bottom: 2rem;
+}
+
+.row {
+  margin: 0.4rem;
+}
+
+input {
+  border-radius: 100px;
+  border: none;
+}
+.imgIcons {
+  width: 2rem;
+}
+.tickIcon {
+  width: 0.8rem;
+}
+
+.coberturaSection {
+  display: grid;
+  width:  100%;;
+  grid-template-columns: 10vh 70vh 70vh;
+  justify-content: center;
+}
+
+.legalWarning {
+  display: flex;
+  justify-content: center;
+  background-color: #ECF0F1;
+}
+
+.legalWarning p {
+  margin: 4rem;
+  text-align: center;
+  font-family:'Barlow', sans-serif;
+  font-size: 00.6rem;
+}

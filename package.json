@@ -1,0 +1,21 @@
+{
+  "name": "Landing-application",
+  "version": "1.0.0",
+  "description": "Landing page for job application.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbarasagredo/Landing-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbarasagredo/Landing-application/issues"
+  },
+  "homepage": "https://github.com/barbarasagredo/Landing-application#readme"
+}
