@@ -9,6 +9,11 @@ body {
   width: 100vw;
 }
 
+h1 {
+  color: #00AEC7;
+  font-family: 'Barlow', sans-serif;
+}
+
 h2, h3{
   font-family:'Barlow', sans-serif;
   font-size: 0.8rem;
@@ -17,6 +22,7 @@ h2, h3{
   display: flex;
   justify-content: space-around;
 }
+
 h4 {
   font-family:'Barlow', sans-serif;
   font-size: 0.8rem;
@@ -24,13 +30,14 @@ h4 {
   color: #0033A0;
   display: flex;  
 }
+
 p{
   color: #53565A;
   font-size: 0.8rem;
 }
 
 .logo {
-  width: 3rem;
+  width: 5rem;
   margin-right: 16rem;
 }
 
@@ -105,9 +112,11 @@ input {
   border-radius: 100px;
   border: none;
 }
+
 .imgIcons {
   width: 2rem;
 }
+
 .tickIcon {
   width: 0.8rem;
 }
@@ -130,4 +139,61 @@ input {
   text-align: center;
   font-family:'Barlow', sans-serif;
   font-size: 00.6rem;
+}
+
+.containerFooter{
+  display: grid;
+  font-family:'Barlow', sans-serif;
+  color: #0033A0;
+  grid-template-columns: 20% 80%;
+  align-items: center;
+}
+
+.footer1Items {
+  display: flex;
+  font-size: 0.6rem;
+  font-weight: bolder;
+  margin: 2rem;
+  justify-content: space-evenly;
+}
+
+li {
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+hr{
+  background-color: #53565A;
+}
+
+.containerFooterEnd {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 60%;
+  justify-content: end;
+}
+
+.containerFooterEnd div {
+  justify-content: end;
+}
+
+.firstSection {
+  display: grid;
+  width: 100%;
+  height: 50vh;
+  grid-template-columns: auto auto;
+}
+
+.firstSection div {
+  margin: 1rem 6rem 0.5rem 6rem;
+  justify-content: space-evenly;
+}
+
+.driver {
+  width: 100%;
+  height: fit-content;
+}
+
+.firstText {
+  margin: 6rem;
 }
